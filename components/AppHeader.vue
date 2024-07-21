@@ -4,14 +4,14 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-whiter shadow">
                 <div class="container-fluid">
-                    <NuxtLink to="/"><img class="navbar-brand navText " ></img></NuxtLink>
+                   <img class="navbar-brand navText " src="public/logo/logo-afaps.svg"</img>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                          <a class="nav-link active " aria-current="page" >ACCUEIL</a>
+                          <a class="nav-link active " href="#" >ACCUEIL</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link active" href="#">COURS</a>
@@ -57,22 +57,10 @@ NuxtLinkText{
 
     border-width: 1px;
     display:flex;
-    width: 60px;
-    height: 23px;
-    background-color: #ced9ff;
-    transition:
-        width 2s,
-        height 2s,
-        background-color 2s,
-        transform 2s;
+    
+    width: 150px;   
 }
 
-.navText:hover{
-    font-size: 20px;
-    background-color: #ffcccc;
-    width: 80px;
-    height: 40px;
-}
 #icon{
     fill:rgb(107, 107, 107) ;
     width:30px;
